@@ -1,0 +1,14 @@
+interface:
+  display_name: Microlearning App Builder
+  short_description: Turn topics and PDFs into encouraging learning apps
+  default_prompt: Use $build-microlearning-app to turn a topic or PDF into a modern,
+    mobile-friendly microlearning app tailored to the audience.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
